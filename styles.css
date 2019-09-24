@@ -69,7 +69,7 @@ li{
 }
 .endnav2{
     float: right;
-    background-color: #0088cc;
+    background-color: #005983;
     padding-bottom: 12px;
     padding-top: 21px;
     margin-top: -20px;
@@ -79,3 +79,13 @@ li{
     float: right;
     margin-top: -15px;
 }
+#hero{
+    background-image: url(images/graduation.jpg);
+    width: 100vw;
+    height: 85vh;
+    background-repeat: no-repeat;
+    background-size: cover
+    
+    
+}
+#
