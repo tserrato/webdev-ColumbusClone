@@ -5,11 +5,19 @@ nav{
     background-color: #10243B;
     color: white;
     width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+    
+    
 }
 
-ul{
+li{
     display: inline;
     text-align: center;
+    padding-left: 15px;
+    
+    
 }
 
 .fhnav{
@@ -18,32 +26,56 @@ ul{
     font-size: 16px;
     text-transform: uppercase;
     font-weight: bold;
+    padding-right: 10px;
 
 }
 .shnav{
     display: inline;
     color: rgb(162, 221, 232);
     font-weight: 2px; 
-    font-family: 'Open Sans', sans-serif;  
+    font-family: 'Open Sans', sans-serif;
+    float: right;
+    padding-right: 10px;  
 }
 .endnav{
-    display: inline;
-    background-color: #005983;
-    padding-top:1.6%;
-    padding-right: 1.2%;
+    float: right;
+    
     
     
     
 }
-.ml{
-    padding-left: 140px;
-}
+
 .navdiv{
     background-color: white;
-    padding-top: 1.6%;
+    padding-top: 100%;
+    padding-bottom: 100%;
     padding-right: 1px;
     display: inline;
 }
+.mlpng{
+    vertical-align: top;
+    float: right;
+    
+    
+    
+}
 .simg{
+    float: right;
     padding-left: 10px;
+    padding-right: 10px; 
+    
+   
+    
+}
+.endnav2{
+    float: right;
+    background-color: #0088cc;
+    padding-bottom: 12px;
+    padding-top: 21px;
+    margin-top: -20px;
+
+}
+.ml{
+    float: right;
+    margin-top: -15px;
 }
