@@ -1,1 +1,49 @@
-/* CSS code  */
+body{
+margin: 0;
+}
+nav{
+    background-color: #10243B;
+    color: white;
+    width: 100%;
+}
+
+ul{
+    display: inline;
+    text-align: center;
+}
+
+.fhnav{
+    display: inline;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+.shnav{
+    display: inline;
+    color: rgb(162, 221, 232);
+    font-weight: 2px; 
+    font-family: 'Open Sans', sans-serif;  
+}
+.endnav{
+    display: inline;
+    background-color: #005983;
+    padding-top:1.6%;
+    padding-right: 1.2%;
+    
+    
+    
+}
+.ml{
+    padding-left: 140px;
+}
+.navdiv{
+    background-color: white;
+    padding-top: 1.6%;
+    padding-right: 1px;
+    display: inline;
+}
+.simg{
+    padding-left: 10px;
+}
