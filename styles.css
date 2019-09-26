@@ -88,4 +88,61 @@ li{
     
     
 }
-#
+#ecchs{
+    height: 100px;
+    width: 100%;
+    
+
+}
+.top{
+    width: 100vw;
+    height: 8vh;
+    background-color: #10243B;
+    padding-top: 20px;
+    text-align: center;
+}
+h2{
+    margin-top: 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: white;
+
+}
+#explorebox{
+    display: inline-block;
+    width: 24.5%;
+    height: 400px;
+    background-color: red;
+    margin: 0px;
+}
+.plaza{
+    background-image: url(images/patriots\ plaza.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.college{
+    background-image: url(images/college.png);
+    background-size: cover;
+    background-position: center;
+}
+.ccnn{
+    background-image: url(images/ccnn.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.live{
+    background-image: url(images/ccnn\ live.png);
+    background-size: cover;
+    background-position: center;
+}
+#bottom{
+    border-top: solid #a3dde8 8px;
+    width: 100%;
+    text-align: center;
+    background-color: #10243B;
+    overflow: hidden;
+}
+a{
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
