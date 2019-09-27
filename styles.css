@@ -80,7 +80,7 @@ li{
     margin-top: -15px;
 }
 #hero{
-    background-image: url(images/graduation.jpg);
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0), transparent), url(images/graduation.jpg);
     width: 100vw;
     height: 85vh;
     background-repeat: no-repeat;
@@ -146,3 +146,24 @@ a{
     text-decoration: none;
     scroll-behavior: smooth;
 }
+#cchsgh{
+    text-align: center;
+    padding-top: 425px;
+    color: #10243B
+    
+
+}
+#glance{
+    display: inline-block;
+    width: 24.5%;
+    height: 100%;
+
+}
+.money{
+    
+}
+.carosel{
+    width: 287.69px;
+    height: 282px;
+}
+
