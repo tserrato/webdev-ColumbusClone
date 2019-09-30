@@ -8,32 +8,7 @@
   <link rel="stylesheet" href="styles.css">
   <title>Christopher Columbus High School</title>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script>
-    $(document).ready(function () {
-      // Add smooth scrolling to all links
-      $("a").on('click', function (event) {
-
-        // Make sure this.hash has a value before overriding default behavior
-        if (this.hash !== "") {
-          // Prevent default anchor click behavior
-          event.preventDefault();
-
-          // Store hash
-          var hash = this.hash;
-
-          // Using jQuery's animate() method to add smooth page scroll
-          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-          $('html, body').animate({
-            scrollTop: $(hash).offset().top
-          }, 800, function () {
-
-            // Add hash (#) to URL when done scrolling (default click behavior)
-            window.location.hash = hash;
-          });
-        } // End if
-      });
-    });
-  </script>
+  <script src="script.js"></script>
 </head>
 
 <body>
@@ -112,7 +87,7 @@
   </div>
   <div id="dotd">
     <div class="dotdd"><img class="dots" src="images/3dots.PNG" alt=""></div>
-    
+
   </div>
   <div id="courses">
     <div class="ap"> 31 AP courses as well as 22 dual enrollment courses offered</div>
@@ -125,7 +100,8 @@
 
   </div>
   <div id="schools">
-    <div class="scoolh">Here are some of the schools where our graduates have chosen to continue their education after CCHS</div>
+    <div class="scoolh">Here are some of the schools where our graduates have chosen to continue their education after
+      CCHS</div>
     <div class="logos"><img src="images/wakeforest.png" alt=""></div>
     <div class="logos"><img src="images/northcarolina.png" alt=""></div>
     <div class="logos"><img src="images/yale.png" alt=""></div>
@@ -133,10 +109,22 @@
 
 
   </div>
+  <div id="footer">
+    <div class="footernav">
+      <div class="leftfoot">
+        <li>Contacts & Directory</li>
+        <li>Emergency Procedures</li>
+        <li>Brand Standards</li>
+        <li>Privacy</li>
+      </div>
+      <div class="rightfoot">
+        
+      </div>
+
+
+    </div>
   </div>
-  </div>
-  </div>
-  </div>
+
 </body>
 
 </html>

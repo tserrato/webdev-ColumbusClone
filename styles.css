@@ -45,7 +45,7 @@ li{
 .navdiv{
     background-color: white;
     padding-top: 100%;
-    padding-bottom: 100%;
+    padding-bottom: 14%;
     padding-right: 1px;
     display: inline;
 }
@@ -246,5 +246,15 @@ a{
     width: 100%;
     background-color: rgba(218, 165, 32, 0.1);
 }
+#footer{
+    background-color: #333333;
+    width: 100%;
+    height: 500px;
 
+}
+.footernav{
+    background-color: #10243B;
+    width: 100%;
+    height: 50px;
+}
 
