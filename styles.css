@@ -148,6 +148,7 @@ a{
     text-align: center;
     padding-top: 425px;
     color: #10243B;
+    margin-left: 40px;
     
 
 }
@@ -156,6 +157,7 @@ a{
     width: 24.5%;
     height: 100%;
     float: left;
+    
     
 
 }
@@ -211,6 +213,7 @@ a{
 }
 .money{
     text-align: left;
+    
 }
 .odot{
     background-image: url(images/1dot.PNG);
@@ -306,4 +309,8 @@ a{
     margin-left: 350px; 
     color: white;
     opacity: 0.5;
+}
+.seal{
+    float: right;
+    margin-left: 125px;
 }
